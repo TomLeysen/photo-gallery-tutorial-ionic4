@@ -10,4 +10,4 @@ app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/photo-rc1/index.html'));
 });
 
-app.listen(process.env.PORT || 80);
+app.listen(process.env.PORT || 8080);
